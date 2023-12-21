@@ -1,1 +1,1 @@
-Learn React
+Play with React🚀
