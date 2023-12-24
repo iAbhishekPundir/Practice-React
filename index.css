@@ -31,6 +31,7 @@
   width: 240px;
   border-radius: 6px;
   margin: 10px;
+  background-color: #f3f4f6;
 }
 .res-card-container:hover {
     cursor: pointer;
