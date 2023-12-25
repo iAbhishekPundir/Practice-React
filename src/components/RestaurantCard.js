@@ -9,6 +9,7 @@ const RestaurantCard = (props) => {
     costForTwoString,
     cloudinaryImageId,
     id,
+    avgRating
   } = resData?.data;
   return (
     <div className="res-card-container" key={id}>
@@ -23,6 +24,7 @@ const RestaurantCard = (props) => {
         <p> {deliveryTime} </p>
         <p> {cuisines.join(", ")} </p>
         <p> {costForTwoString} </p>
+        <p> {avgRating} </p>
       </div>
     </div>
   );
