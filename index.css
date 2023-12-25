@@ -54,3 +54,7 @@
     flex-wrap: wrap;
     margin: 2px;
 }
+
+.filter {
+  margin: 10px;
+}
