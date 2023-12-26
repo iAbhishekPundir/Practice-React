@@ -1,8 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LOGO_URL } from "../utils/constants";
 
 const Header = () => {
-  const [isLogin, setIsLogin] = useState(false);
+  const [loginBtn, setLoginBtn] = useState("Login");
+
+  useEffect(()=> {
+    console.log("useEffect called");
+  }, [loginBtn]);
+
   return (
     <div className="header">
       <div className="logo-container">
@@ -14,15 +19,17 @@ const Header = () => {
           <li>About</li>
           <li>Contact us</li>
           <li>Cart</li>
-          {isLogin ? (
-            <button className="login-btn" onClick={() => setIsLogin(false)}>
-              Logout
-            </button>
-          ) : (
-            <button className="login-btn" onClick={() => setIsLogin(true)}>
-              Login
-            </button>
-          )}
+
+          <button
+            className="login-btn"
+            onClick={() =>
+              loginBtn === "Login"
+                ? setLoginBtn("Logout")
+                : setLoginBtn("Login")
+            }
+          >
+            Logout
+          </button>
         </ul>
       </div>
     </div>
