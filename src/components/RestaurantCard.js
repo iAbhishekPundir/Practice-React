@@ -21,10 +21,10 @@ const RestaurantCard = (props) => {
           {" "}
           <b>{name} </b>
         </p>
-        <p> {sla.deliveryTime} </p>
         <p> {cuisines.join(", ")} </p>
         <p> {costForTwo} </p>
-        <p> {avgRating} </p>
+        <p> {avgRating}⭐ </p>
+        <p> {sla.deliveryTime} min </p>
       </div>
     </div>
   );
