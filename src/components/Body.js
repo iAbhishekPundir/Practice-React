@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import RestaurantCard from "../components/RestaurantCard";
-import { restaurantList } from "../utils/mockData";
+// import { restaurantList } from "../utils/mockData";
 import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
-  console.log("inside body");
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -16,47 +16,28 @@ const Body = () => {
     );
 
     const jsonData = await fetchedData.json();
-    // console.log(jsonData.data.cards.card.card.gridElements.infoWithStyle.restaurants);
 
-    // console.log(jsonData?.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
     if (jsonData !== undefined) {
       setListOfRestaurants(
         jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
       );
+      console.log(listOfRestaurants);
     }
   };
 
-  if (listOfRestaurants?.length === 0) {
-    return (
-      <div className="shimmer-container">
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-        <Shimmer />
-      </div>
-    );
-  }
-
-  return (
+  return listOfRestaurants?.length === 0 ? (
+    <div className="shimmer-container">
+      <Shimmer />
+    </div>
+  ) : (
     <div>
-      {console.log("inside body jsx")}
       <div className="filter">
         <button
           onClick={() => {
-            setListOfRestaurants(data?.filter((res) => res.info.avgRating >= 4.5));
+            setListOfRestaurants(
+              listOfRestaurants?.filter((res) => res?.info?.avgRating >= 4.5)
+            );
           }}
         >
           Top Rated Restaurants
