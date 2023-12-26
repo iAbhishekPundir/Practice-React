@@ -23,7 +23,7 @@
   list-style: none;
 }
 .nav-container > .nav-items > li:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .res-card-container {
@@ -34,9 +34,9 @@
   background-color: #f3f4f6;
 }
 .res-card-container:hover {
-    cursor: pointer;
-    box-shadow: 0 0 3px;
-    border: 2px solid brown;
+  cursor: pointer;
+  box-shadow: 0 0 3px;
+  border: 2px solid brown;
 }
 .res-card-container > .res-image {
   width: 240px;
@@ -50,24 +50,36 @@
   margin: 10px;
 }
 .res-card-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
 }
 
 .filter {
   margin: 10px;
+  display: flex;
 }
+.search {
+  margin: 0px 10px 0px 0px;
+}
+.reset-btn {
+  margin: 0px 0px 0px 10px;
+}
+
 .shimmer-container {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .shimmer-card {
   width: 240px;
-  height: 350PX;
+  height: 350px;
   border-radius: 6px;
   margin: 10px;
-  background-color: #f0f0f0
+  background-color: #f0f0f0;
+}
+
+.login-btn {
+  padding: 0 10px;
+  cursor: pointer;
 }
