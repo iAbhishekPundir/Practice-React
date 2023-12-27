@@ -5,9 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [loginBtn, setLoginBtn] = useState("Login");
 
-  useEffect(() => {
-    console.log("useEffect called");
-  }, [loginBtn]);
+  useEffect(() => {}, [loginBtn]);
 
   return (
     <div className="header">
@@ -35,7 +33,7 @@ const Header = () => {
                 : setLoginBtn("Login")
             }
           >
-            Logout
+            {loginBtn}
           </button>
         </ul>
       </div>
