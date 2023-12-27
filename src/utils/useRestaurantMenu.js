@@ -7,7 +7,7 @@ const useRestaurantMenu = (resId) => {
   const fetchData = async (resId) => {
     const fetchedData = await fetch(MENU_URL + resId);
     const jsonData = await fetchedData.json();
-    setResMenu(jsonData);
+    setResMenu(jsonData?.data?.cards[2]?.card?.card?.info);
   };
 
   useEffect(() => {

@@ -23,7 +23,8 @@ const RestaurantMenu = () => {
     locality,
     name,
     sla,
-  } = resMenu?.data?.cards[2]?.card?.card?.info;
+  } = resMenu;
+
   const { deliveryTime, lastMileTravelString } = sla;
 
   return (
