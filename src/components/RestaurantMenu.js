@@ -28,22 +28,22 @@ const RestaurantMenu = () => {
   const { deliveryTime, lastMileTravelString } = sla;
 
   return (
-    <div key={id}>
-      <h1>Name of the Restaurant</h1>
-      <p> {name} </p>
-      <p> {areaName} </p>
-      <p> {avgRatingString} </p>
-      <p> {city} </p>
-      <h2> Menu </h2>
+    <div className="m-4 p-4 bg-slate-200 w-60" key={id}>
+      <h1 className="font-bold">Name of the Restaurant</h1>
+      <p className="font-semibold"> {name} </p>
+      <p className="font-semibold"> {areaName} </p>
+      <p className="font-semibold"> {avgRatingString}⭐ </p>
+      <p className="font-semibold"> {city} </p>
+      <h1 className="font-bold"> Menu </h1>
       <ul>
         {cuisines.map((item) => (
-          <li key={item}>
+          <li key={item} className="font-semibold">
             {" "}
             {item} - {costForTwoMessage}{" "}
           </li>
         ))}
       </ul>
-      <p> {locality} </p>
+      <p className="font-semibold"> {locality} </p>
       <p>
         <b>
           {" "}

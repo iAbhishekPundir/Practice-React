@@ -7,32 +7,39 @@ const Header = () => {
   const [loginBtn, setLoginBtn] = useState("Login");
   const onlineStatus = useOnlineStatus();
 
-  useEffect(() => {}, [loginBtn]);
-
   return (
-    <div className="header">
+    <div className="flex  justify-between bg-slate-100">
       <div className="logo-container">
-        <img className="logo" src={LOGO_URL} />
+        <img className="w-24" src={LOGO_URL} />
       </div>
-      <div className="nav-container">
-        <ul className="nav-items">
-          <li>Online status: {onlineStatus ? "🟢" : "🔴"}</li>
-          <li>
-            <Link className="link" to="/">Home</Link>
+      <div className="flex items-center">
+        <ul className="flex ">
+          <li className="px-2 hover:font-semibold">Online status: {onlineStatus ? "🟢" : "🔴"}</li>
+          <li className="px-2 hover:font-semibold">
+            <Link className="link" to="/">
+              Home
+            </Link>
           </li>
-          <li>
-            <Link className="link" to="/grocery">Grocery</Link>
+          <li className="px-2 hover:font-semibold">
+            <Link className="link" to="/grocery">
+              Grocery
+            </Link>
           </li>
-          <li>
-            <Link className="link" to="/about">About</Link>
+          <li className="px-2 hover:font-semibold">
+            <Link className="link" to="/about">
+              About
+            </Link>
           </li>
-          <li>
-            <Link className="link" to="/contact">Contact us</Link>
+          <li className="px-2 hover:font-semibold">
+            <Link className="link" to="/contact">
+              Contact us
+            </Link>
           </li>
-          <li>Cart</li>
-
+          <li className="px-2 hover:font-semibold">Cart</li>
+          
+          <li className="px-2">
           <button
-            className="login-btn"
+            className="rounded-sm bg-amber-300 px-2 hover:bg-amber-400"
             onClick={() =>
               loginBtn === "Login"
                 ? setLoginBtn("Logout")
@@ -41,6 +48,8 @@ const Header = () => {
           >
             {loginBtn}
           </button>
+          </li>
+        
         </ul>
       </div>
     </div>

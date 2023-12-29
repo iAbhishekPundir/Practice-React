@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import RestaurantCard from "../components/RestaurantCard";
-// import { restaurantList } from "../utils/mockData";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { RESTAURANT_LIST_URL } from "../utils/constants";
@@ -29,13 +28,14 @@ const Body = () => {
         jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
       );
+      console.log(listOfRestaurants);
     }
   };
 
   const onlineStatus = useOnlineStatus();
 
   if (!onlineStatus) {
-    return <h1>You're offline, please check your internet!</h1>
+    return <h1>You're offline, please check your internet!</h1>;
   }
 
   return listOfRestaurants?.length === 0 ? (
@@ -44,9 +44,10 @@ const Body = () => {
     </div>
   ) : (
     <div>
-      <div className="filter">
-        <div className="search">
+      <div className="flex items-center my-4 mx-4">
+        <div className="">
           <input
+            className=" mr-4 px-1 ring-1 ring-inset ring-gray-300"
             type="text"
             placeholder="Enter restaurant name"
             value={searchText}
@@ -55,6 +56,7 @@ const Body = () => {
             }}
           />
           <button
+            className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400 mr-4"
             onClick={() =>
               setFilteredData(
                 listOfRestaurants?.filter((res) =>
@@ -68,32 +70,39 @@ const Body = () => {
             Search
           </button>
         </div>
-        <button
-          onClick={() => {
-            setFilteredData(
-              listOfRestaurants?.filter((res) => res?.info?.avgRating >= 4.2)
-            );
-          }}
-        >
-          Top Rated Restaurants
-        </button>
-        <button
-          className="reset-btn"
-          onClick={() => setFilteredData(listOfRestaurants)}
-        >
-          Reset
-        </button>
-        {/* <p style={{marginLeft:"10px"}}><strong> {searchText} </strong></p> */}
-      </div>
-      <div className="res-card-wrapper">
-        {filteredData?.map((restaurant) => (
-          <Link className="link"
-            to={"/restaurant/" + restaurant.info.id}
-            key={restaurant.info.id}
+        <div className="">
+          <button
+            className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400 mr-4"
+            onClick={() => {
+              setFilteredData(
+                listOfRestaurants?.filter((res) => res?.info?.avgRating >= 4.2)
+              );
+            }}
           >
-            <RestaurantCard key={restaurant.info.id} resData={restaurant} />{" "}
-          </Link>
-        ))}
+            Top Rated Restaurants
+          </button>
+          <button
+            className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400"
+            onClick={() => setFilteredData(listOfRestaurants)}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+      <div className="flex flex-wrap">
+        {filteredData?.length === 0 ? (
+          <h1>No restaurant found🫤</h1>
+        ) : (
+          filteredData?.map((restaurant) => (
+            <Link
+              className="link"
+              to={"/restaurant/" + restaurant.info.id}
+              key={restaurant.info.id}
+            >
+              <RestaurantCard key={restaurant.info.id} resData={restaurant} />{" "}
+            </Link>
+          ))
+        )}
       </div>
     </div>
   );
