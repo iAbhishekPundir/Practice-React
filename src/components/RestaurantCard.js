@@ -1,5 +1,16 @@
 import { CDN_URL } from "../utils/constants";
 
+export const WithPromotedLabel = (RestaurantCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute m-2 p-1 bg-slate-900 text-white rounded-sm">Promoted</label>
+        <RestaurantCard {...props} />
+      </div>
+    )
+  }
+}
+
 const RestaurantCard = (props) => {
   const { resData } = props;
   const { id, name, cloudinaryImageId, costForTwo, cuisines, avgRating, sla } =
