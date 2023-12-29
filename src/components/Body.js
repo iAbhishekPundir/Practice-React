@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import RestaurantCard, {
-  WithPromotedLabel,
+  withPromotedLabel,
 } from "../components/RestaurantCard";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { RESTAURANT_LIST_URL } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
 
-const PromotedRestaurant = WithPromotedLabel(RestaurantCard);
+const PromotedRestaurant = withPromotedLabel(RestaurantCard);
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredData, setFilteredData] = useState([]);

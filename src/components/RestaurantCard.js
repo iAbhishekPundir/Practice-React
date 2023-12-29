@@ -1,6 +1,6 @@
 import { CDN_URL } from "../utils/constants";
 
-export const WithPromotedLabel = (RestaurantCard) => {
+export const withPromotedLabel = (RestaurantCard) => {
   return (props) => {
     return (
       <div>
