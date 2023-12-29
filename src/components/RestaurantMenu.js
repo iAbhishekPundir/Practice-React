@@ -3,7 +3,6 @@ import Shimmer from "./Shimmer";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 
 const RestaurantMenu = () => {
-
   const { resId } = useParams();
 
   const resMenu = useRestaurantMenu(resId);
@@ -36,12 +35,7 @@ const RestaurantMenu = () => {
       <p className="font-semibold"> {city} </p>
       <h1 className="font-bold"> Menu </h1>
       <ul>
-        {cuisines.map((item) => (
-          <li key={item} className="font-semibold">
-            {" "}
-            {item} - {costForTwoMessage}{" "}
-          </li>
-        ))}
+        <p> {cuisines.join(", ")} </p>
       </ul>
       <p className="font-semibold"> {locality} </p>
       <p>

@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div className="flex items-center">
         <ul className="flex ">
-          <li className="px-2 hover:font-semibold">Online status: {onlineStatus ? "🟢" : "🔴"}</li>
+          <li className="px-2 hover:font-semibold">Status: {onlineStatus ? "🟢" : "🔴"}</li>
           <li className="px-2 hover:font-semibold">
             <Link className="link" to="/">
               Home
@@ -30,11 +30,11 @@ const Header = () => {
               About
             </Link>
           </li>
-          <li className="px-2 hover:font-semibold">
+          {/* <li className="px-2 hover:font-semibold">
             <Link className="link" to="/contact">
               Contact us
             </Link>
-          </li>
+          </li> */}
           <li className="px-2 hover:font-semibold">Cart</li>
           
           <li className="px-2">

@@ -12,27 +12,30 @@ const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [searchText, setSearchText] = useState("");
-  console.log(listOfRestaurants);
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // console.log(listOfRestaurants);
 
   const fetchData = async () => {
     const fetchedData = await fetch(RESTAURANT_LIST_URL);
 
     const jsonData = await fetchedData.json();
+    console.log(jsonData);
 
+    console.log(jsonData);
     if (jsonData !== undefined) {
       setListOfRestaurants(
-        jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+        jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
       );
       setFilteredData(
-        jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+        jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
       );
     }
   };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   const onlineStatus = useOnlineStatus();
 
@@ -72,7 +75,7 @@ const Body = () => {
             Search
           </button>
         </div>
-        <div className="">
+        <div className="flex items-center">
           <button
             className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400 mr-4"
             onClick={() => {
@@ -84,11 +87,12 @@ const Body = () => {
             Top Rated Restaurants
           </button>
           <button
-            className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400"
+            className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400 mr-4"
             onClick={() => setFilteredData(listOfRestaurants)}
           >
             Reset
           </button>
+          <p className="font-semibold bg-green-300 px-2">Total Restaurant : {filteredData.length} </p>
         </div>
       </div>
       <div className="flex flex-wrap">
