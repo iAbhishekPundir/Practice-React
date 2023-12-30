@@ -1,7 +1,7 @@
 import { CDN_URL } from "../utils/constants";
 
 const ItemList = ({ itemListData }) => {
-  console.log("itemList", itemListData);
+  // console.log("Categories itemList : ", itemListData);
   return (
     <div>
       {itemListData !== undefined &&

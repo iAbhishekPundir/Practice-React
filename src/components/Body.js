@@ -12,13 +12,12 @@ const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [searchText, setSearchText] = useState("");
-  // console.log(listOfRestaurants);
 
   const fetchData = async () => {
     const fetchedData = await fetch(RESTAURANT_LIST_URL);
 
     const jsonData = await fetchedData.json();
-    console.log(jsonData);
+    // console.log("Reastaurant List : ", jsonData);
     if (jsonData !== undefined) {
       setListOfRestaurants(
         jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle

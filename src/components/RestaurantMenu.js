@@ -11,7 +11,6 @@ const RestaurantMenu = () => {
 
   const [showIndex, setShowIndex] = useState(1);
 
-
   if (resMenu === null || resMenu === undefined) {
     return <Shimmer />;
   }
@@ -35,7 +34,7 @@ const RestaurantMenu = () => {
 
   const categories =
     resMenu?.data?.cards[5]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
-  console.log("categories", categories);
+  // console.log("Resaurant Categories : ", categories);
 
   const { message } = feeDetails;
 
@@ -60,11 +59,12 @@ const RestaurantMenu = () => {
       </div>
       <div className="p-4 w-6/12  mx-auto my-4 ">
         {categories.map((category, index) => (
-          <RestaurantCategory 
-          resCategoryData={category?.card?.card}
-          showItems= {index === showIndex ? true : false}
-          setShowIndex={()=> setShowIndex(index)}
-           />
+          <RestaurantCategory
+            key={category?.card?.card?.title}
+            resCategoryData={category?.card?.card}
+            showItems={index === showIndex ? true : false}
+            setShowIndex={() => setShowIndex(index)}
+          />
         ))}
       </div>
     </div>
