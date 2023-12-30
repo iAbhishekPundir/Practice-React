@@ -19,15 +19,13 @@ const Body = () => {
 
     const jsonData = await fetchedData.json();
     console.log(jsonData);
-
-    console.log(jsonData);
     if (jsonData !== undefined) {
       setListOfRestaurants(
-        jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+        jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
       );
       setFilteredData(
-        jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+        jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
       );
     }
@@ -48,7 +46,7 @@ const Body = () => {
       <Shimmer />
     </div>
   ) : (
-    <div>
+    <div >
       <div className="flex items-center my-4 mx-4">
         <div className="">
           <input
@@ -92,7 +90,7 @@ const Body = () => {
           >
             Reset
           </button>
-          <p className="font-semibold bg-green-300 px-2">Total Restaurant : {filteredData.length} </p>
+          <p className="font-semibold bg-green-300 px-2">Total Restaurant : {filteredData?.length} </p>
         </div>
       </div>
       <div className="flex flex-wrap">
