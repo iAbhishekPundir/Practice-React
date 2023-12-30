@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import { CDN_URL } from "../utils/constants";
+import UserContext from "../utils/UserContext";
 
 export const withPromotedLabel = (RestaurantCard) => {
+  
   return (props) => {
     return (
       <div>
@@ -12,6 +15,7 @@ export const withPromotedLabel = (RestaurantCard) => {
 }
 
 const RestaurantCard = (props) => {
+  const { loggedInUser } = useContext(UserContext);
   const { resData } = props;
   const { id, name, cloudinaryImageId, costForTwo, cuisines, avgRating, sla } =
     resData?.info;
@@ -29,6 +33,7 @@ const RestaurantCard = (props) => {
         <p> {costForTwo} </p>
         <p> {avgRating}⭐ </p>
         <p> {sla.deliveryTime} min </p>
+        <p> {loggedInUser} </p>
       </div>
     </div>
   );
