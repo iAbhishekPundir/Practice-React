@@ -13,6 +13,8 @@ import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux"; //This provider helps us to provide store to our application...(It works like a bridge🌉)
+import appStore from "./utils/appStore";
 
 const Grocery = lazy(() => import("./components/Grocery"));
 
@@ -31,6 +33,7 @@ const AppLayout = () => {
   }, []);
 
   return (
+    <Provider store={appStore}>
     <div className="app">
       <UserContext.Provider value={{ loggedInUser: userName }}>
         <Header />
@@ -39,6 +42,7 @@ const AppLayout = () => {
         <Outlet />
       </UserContext.Provider>
     </div>
+    </Provider>
   );
 };
 
