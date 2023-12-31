@@ -49,7 +49,7 @@ const Body = () => {
       <div className="flex items-center my-4 mx-4">
         <div className="">
           <input
-            className=" mr-4 px-1 ring-1 ring-inset ring-gray-300"
+            className=" mr-4 px-1 border border-gray-400 rounded-sm"
             type="text"
             placeholder="Enter restaurant name"
             value={searchText}
