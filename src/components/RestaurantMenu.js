@@ -60,7 +60,7 @@ const RestaurantMenu = () => {
       <div className="p-4 w-6/12  mx-auto my-4 ">
         {categories.map((category, index) => (
           <RestaurantCategory
-            key={category?.card?.card?.title}
+            key={index}
             resCategoryData={category?.card?.card}
             showItems={index === showIndex ? true : false}
             setShowIndex={() => setShowIndex(index)}
