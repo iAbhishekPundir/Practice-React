@@ -6,12 +6,15 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { RESTAURANT_LIST_URL } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { useSelector } from "react-redux";
 
 const PromotedRestaurant = withPromotedLabel(RestaurantCard);
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  // const cartItems = useSelector()
 
   const fetchData = async () => {
     const fetchedData = await fetch(RESTAURANT_LIST_URL);
