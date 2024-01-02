@@ -41,11 +41,11 @@ const Header = () => {
               About
             </Link>
           </li>
-          {/* <li className="px-2 hover:font-semibold">
+          <li className="px-2 hover:font-semibold">
             <Link className="link" to="/contact">
               Contact us
             </Link>
-          </li> */}
+          </li>
           <li className="px-2 text-lg hover:font-bold font-semibold">
             <Link className="link" to="/cart">
               Cart ( {cartItems.length} )
