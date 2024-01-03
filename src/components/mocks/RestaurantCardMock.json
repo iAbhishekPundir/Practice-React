@@ -1,0 +1,118 @@
+{
+    "info": {
+        "id": "292517",
+        "name": "Chai Point",
+        "cloudinaryImageId": "ewhrfspfrhqebt5xjawq",
+        "locality": "Baner Road",
+        "areaName": "Baner",
+        "costForTwo": "₹150 for two",
+        "cuisines": [
+            "Bakery",
+            "Beverages",
+            "Maharashtrian",
+            "Snacks",
+            "Street Food",
+            "South Indian",
+            "Punjabi",
+            "Chaat",
+            "Indian",
+            "American",
+            "North Indian",
+            "Fast Food",
+            "Desserts",
+            "Cafe",
+            "Healthy Food",
+            "Home Food"
+        ],
+        "avgRating": 4.4,
+        "parentId": "1607",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "5K+",
+        "promoted": true,
+        "adTrackingId": "cid=10297368~p=1~eid=0000018c-ccf8-f28b-790a-c9ea00700101~srvts=1704245916299~63141",
+        "sla": {
+            "deliveryTime": 45,
+            "lastMileTravel": 7.4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "45 mins",
+            "lastMileTravelString": "7.4 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-01-03 23:59:00",
+            "opened": true
+        },
+        "badges": {
+            "textExtendedBadges": [
+                {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                }
+            ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {
+            "header": "₹120 OFF",
+            "shortDescriptionList": [
+                {
+                    "meta": "Use PTMJACKPOT",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                }
+            ],
+            "descriptionList": [
+                {
+                    "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                }
+            ]
+        },
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+        "context": "seo-data-3a28a7dc-98e7-42e9-8c11-90a72e9b9ce7"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/chai-point-road-baner-pune-292517",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_byName"
+}
