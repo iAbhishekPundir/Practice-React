@@ -17,6 +17,7 @@ export const withPromotedLabel = (RestaurantCard) => {
 const RestaurantCard = (props) => {
   const { loggedInUser } = useContext(UserContext);
   const { resData } = props;
+  // console.log(resData);
   const { id, name, cloudinaryImageId, costForTwo, cuisines, avgRating, sla } =
     resData?.info;
   return (

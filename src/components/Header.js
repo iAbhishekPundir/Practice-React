@@ -12,7 +12,7 @@ const Header = () => {
 
   //subscribing to the store using useselector
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+  // console.log(cartItems);
 
   return (
     <div className="flex  justify-between bg-slate-100">
@@ -48,7 +48,7 @@ const Header = () => {
           </li>
           <li className="px-2 text-lg hover:font-bold font-semibold">
             <Link className="link" to="/cart">
-              Cart ( {cartItems.length} )
+              Cart ({cartItems?.length})
             </Link>
           </li>
 

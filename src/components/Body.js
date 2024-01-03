@@ -8,7 +8,7 @@ import { RESTAURANT_LIST_URL } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { useSelector } from "react-redux";
 
-const PromotedRestaurant = withPromotedLabel(RestaurantCard);
+export const PromotedRestaurant = withPromotedLabel(RestaurantCard);
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
@@ -106,7 +106,7 @@ const Body = () => {
               key={restaurant.info.id}
             >
               {restaurant.info.promoted ? (
-                <PromotedRestaurant resData={restaurant} />
+                <PromotedRestaurant key={restaurant.info.id} resData={restaurant} />
               ) : (
                 <RestaurantCard key={restaurant.info.id} resData={restaurant} />
               )}
