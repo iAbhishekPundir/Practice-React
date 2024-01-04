@@ -13,7 +13,7 @@ const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [searchText, setSearchText] = useState("");
-
+  // console.log("Restaurant data", listOfRestaurants);
   // const cartItems = useSelector()
 
   const fetchData = async () => {

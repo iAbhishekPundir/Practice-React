@@ -5,7 +5,7 @@ import "@testing-library/jest-dom";
 import { PromotedRestaurant } from "../Body";
 
 describe("RestaurantCard component test cases", () => {
-  
+
   it("should render RestaurantCard ", () => {
     render(<RestaurantCard resData={MOCK_DATA} />);
 
