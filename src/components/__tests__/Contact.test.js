@@ -2,7 +2,7 @@ import Contact from "../Contact";
 const { render, screen } = require("@testing-library/react");
 import "@testing-library/jest-dom";
 
-describe("Contact Component it cases ", () => {
+describe("Contact Component test cases ", () => {
   it("Should load Contact Component successfully", () => {
     render(<Contact />);
 
@@ -34,7 +34,6 @@ describe("Contact Component it cases ", () => {
     render(<Contact />);
 
     const input = screen.getByPlaceholderText("Enter you name");
-    //   console.log("Yaha par check karo", input);
 
     //Assertion
     expect(input).toBeInTheDocument();

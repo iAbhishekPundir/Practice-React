@@ -34,7 +34,7 @@ describe("Header test cases", () => {
     expect(cartItems).toBeInTheDocument();
   });
 
-  it("should change Login button to Logout button inside Header successfully", () => {
+  it("should toggle login-logout buttton inside Header successfully", () => {
     render(
       <BrowserRouter>
         <Provider store={appStore}>
