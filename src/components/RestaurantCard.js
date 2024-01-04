@@ -3,25 +3,27 @@ import { CDN_URL } from "../utils/constants";
 import UserContext from "../utils/UserContext";
 
 export const withPromotedLabel = (RestaurantCard) => {
-  
   return (props) => {
     return (
       <div>
-        <label className="absolute m-2 p-1 bg-slate-900 text-white rounded-sm">Promoted</label>
+        <label className="absolute m-2 p-1 bg-slate-900 text-white rounded-sm">
+          Promoted
+        </label>
         <RestaurantCard {...props} />
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 const RestaurantCard = (props) => {
   const { loggedInUser } = useContext(UserContext);
   const { resData } = props;
-  // console.log(resData);
+  // console.log("resdata", resData);
   const { id, name, cloudinaryImageId, costForTwo, cuisines, avgRating, sla } =
     resData?.info;
   return (
     <div
+      data-testid="resCard"
       className="w-60  m-2 rounded-md bg-slate-200 hover:bg-slate-300"
       key={id}
     >
