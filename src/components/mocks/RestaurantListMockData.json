@@ -1,0 +1,831 @@
+[
+    {
+        "info": {
+            "id": "394784",
+            "name": "Theobroma",
+            "cloudinaryImageId": "b033728dcb0101ceb19bff0e1e1f6474",
+            "locality": "Shivaji Nagar",
+            "areaName": "Shivajinagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "1040",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "1K+",
+            "promoted": true,
+            "adTrackingId": "cid=10288592~p=1~eid=0000018c-d29f-4e4d-1b3d-2dd50091010c~srvts=1704340704845~63141",
+            "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 4.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "24 mins",
+                "lastMileTravelString": "4.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-05 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/theobroma-shivaji-nagar-shivajinagar-pune-394784",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    },
+    {
+        "info": {
+            "id": "13907",
+            "name": "Wadeshwar",
+            "cloudinaryImageId": "qewgfwwxgx1afxyq3enk",
+            "locality": "Erandwane",
+            "areaName": "Erandwane",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "South Indian",
+                "Snacks",
+                "Street Food",
+                "Beverages",
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "1770",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "27 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-04 22:55:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/wadeshwar-erandwane-pune-13907",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    },
+    {
+        "info": {
+            "id": "39705",
+            "name": "Subway",
+            "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+            "locality": "The Pavillion Mall",
+            "areaName": "Senapati Bapat Road",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Healthy Food",
+                "Salads",
+                "Snacks",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.2,
+            "parentId": "2",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1K+",
+            "promoted": true,
+            "adTrackingId": "cid=10354708~p=2~eid=0000018c-d29f-4e4d-1b3d-2dd60091026f~srvts=1704340704845~63141",
+            "sla": {
+                "deliveryTime": 43,
+                "lastMileTravel": 1.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "43 mins",
+                "lastMileTravelString": "1.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-04 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/subway-the-pavillion-mall-senapati-bapat-road-pune-39705",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    },
+    {
+        "info": {
+            "id": "25628",
+            "name": "Barista Coffee",
+            "cloudinaryImageId": "9374825cb68f0263bc11702df311f99d",
+            "locality": "Law College Road",
+            "areaName": "Erandwane",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Beverages",
+                "Snacks",
+                "Desserts"
+            ],
+            "avgRating": 4.4,
+            "parentId": "2359",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-04 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/barista-coffee-law-college-road-erandwane-pune-25628",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    },
+    {
+        "info": {
+            "id": "695371",
+            "name": "Naadbramha Idli",
+            "cloudinaryImageId": "d1b72eaf2a273dee7610bc91cd2694fc",
+            "locality": "Ghole  Road",
+            "areaName": "Shivaji Nagar",
+            "costForTwo": "₹20 for two",
+            "cuisines": [
+                "South Indian"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "251339",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "100+",
+            "promoted": true,
+            "adTrackingId": "cid=10019212~p=3~eid=0000018c-d29f-4e4d-1b3d-2dd700910334~srvts=1704340704845~63141",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 1.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "1.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-04 20:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/naadbramha-idli-ghole-road-shivaji-nagar-pune-695371",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    },
+    {
+        "info": {
+            "id": "200980",
+            "name": "Irani Cafe",
+            "cloudinaryImageId": "lqby9oun9f21n0nrhwxc",
+            "locality": "Prabhat Road",
+            "areaName": "Erandwane",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Bakery",
+                "Snacks",
+                "Fast Food",
+                "Desserts",
+                "Beverages",
+                "Indian",
+                "Street Food"
+            ],
+            "avgRating": 4.5,
+            "parentId": "4057",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-04 23:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/irani-cafe-prabhat-road-erandwane-pune-200980",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    },
+    {
+        "info": {
+            "id": "805763",
+            "name": "Leela's Veg Multi Cuisine Restaurant",
+            "cloudinaryImageId": "f8fd24e2a26ea68a8106a14086f187e9",
+            "locality": "Shivaji Nagar",
+            "areaName": "Shivaji Nagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "North Indian",
+                " South Indian",
+                " Chinese",
+                "Snacks",
+                "Beverages"
+            ],
+            "veg": true,
+            "parentId": "481653",
+            "avgRatingString": "NEW",
+            "promoted": true,
+            "adTrackingId": "cid=10201160~p=4~eid=0000018c-d29f-4e4d-1b3d-2dd800910414~srvts=1704340704845~63141",
+            "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-04 23:01:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/leelas-veg-multi-cuisine-restaurant-shivaji-nagar-pune-805763",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    },
+    {
+        "info": {
+            "id": "288404",
+            "name": "Starbucks Coffee",
+            "cloudinaryImageId": "258fe8a3577877fbfe064095ed1d9dc3",
+            "locality": "The Pavillion Mall",
+            "areaName": "Senapati Bapat Road",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Beverages",
+                "Cafe",
+                "Snacks",
+                "Desserts",
+                "Bakery",
+                "Ice Cream"
+            ],
+            "avgRating": 4.2,
+            "parentId": "195515",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-04 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/starbucks-coffee-the-pavillion-mall-senapati-bapat-road-pune-288404",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    },
+    {
+        "info": {
+            "id": "11887",
+            "name": "Samudra Veg",
+            "cloudinaryImageId": "b7r9runu5yjkfsl20tri",
+            "locality": "Pandurang Colony",
+            "areaName": "Erandwane",
+            "costForTwo": "₹450 for two",
+            "cuisines": [
+                "North Indian",
+                "Chinese",
+                "South Indian"
+            ],
+            "avgRating": 4.5,
+            "veg": true,
+            "parentId": "176775",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "10K+",
+            "promoted": true,
+            "adTrackingId": "cid=10305382~p=5~eid=0000018c-d29f-4e4d-1b3d-2dd900910548~srvts=1704340704845~63141",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 3.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "27 mins",
+                "lastMileTravelString": "3.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-04 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+                "header": "₹120 OFF",
+                "shortDescriptionList": [
+                    {
+                        "meta": "Use PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ],
+                "descriptionList": [
+                    {
+                        "meta": "INR 120 on MOV of INR 199  | Use code PTMJACKPOT",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-b7b56a38-dc40-4fa7-8ebf-f6609943697b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/samudra-veg-pandurang-colony-erandwane-pune-11887",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_byName"
+    }
+]
