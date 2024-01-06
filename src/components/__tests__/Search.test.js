@@ -25,6 +25,7 @@ describe("Test cases for Search functionality", () => {
 
     const cardBeforeSearch = screen.getAllByTestId("resCard");
 
+    // console.log(cardBeforeSearch.length);
     expect(cardBeforeSearch.length).toBe(9);
 
     const searchBtn = screen.getByRole("button", { name: "Search" });
@@ -32,7 +33,7 @@ describe("Test cases for Search functionality", () => {
 
     const searchInput = screen.getByTestId("searchInput");
 
-    fireEvent.change(searchInput, { target: { value: "pizza" } });
+    fireEvent.change(searchInput, { target: { value: "burger" } });
 
     fireEvent.click(searchBtn);
 
