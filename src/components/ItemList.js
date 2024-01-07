@@ -3,7 +3,7 @@ import { CDN_URL } from "../utils/constants";
 import { addItem } from "../utils/cartSlice";
 
 const ItemList = ({ itemListData }) => {
-  // console.log("Categories itemList : ", itemListData);
+  console.log("Categories itemList : ", itemListData);
 
   const dispatch = useDispatch();
   const handleAddToCart = (item) => {
@@ -14,7 +14,7 @@ const ItemList = ({ itemListData }) => {
     <div>
       {itemListData !== undefined &&
         itemListData.map((item) => (
-          <div key={item?.card?.info?.id} className="flex justify-between items-center my-4 p-2 shadow-lg bg-slate-100">
+          <div data-testid="foodItems" key={item?.card?.info?.id} className="flex justify-between items-center my-4 p-2 shadow-lg bg-slate-100">
             <div className="m-2 p-2">
               <h2 className="m-2 font-bold">{item?.card?.info?.name}</h2>
               <p className="m-2 font-semibold"> ₹{item?.card?.info?.price / 100} <span className="text-red-600">| 10% swiggy off </span></p>
