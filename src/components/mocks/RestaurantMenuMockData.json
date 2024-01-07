@@ -72,7 +72,7 @@
                                 "iconType": "ICON_TYPE_EMPTY"
                             },
                             "availability": {
-                                "nextCloseTime": "2024-01-05 02:59:00",
+                                "nextCloseTime": "2024-01-07 22:59:00",
                                 "visibility": true,
                                 "opened": true,
                                 "restaurantClosedMeta": {}
@@ -86,7 +86,7 @@
                                         "operationType": "RESTAURANT"
                                     },
                                     {
-                                        "meta": "Flat ₹100 off on orders above ₹999",
+                                        "meta": "Flat ₹150 off on orders above ₹999",
                                         "discountType": "Flat",
                                         "operationType": "RESTAURANT"
                                     }
@@ -98,7 +98,7 @@
                                         "operationType": "RESTAURANT"
                                     },
                                     {
-                                        "meta": "Flat ₹100 off on orders above ₹999 | Use code FLAT100",
+                                        "meta": "Flat ₹150 off on orders above ₹999 | Use code FLAT150",
                                         "discountType": "Flat",
                                         "operationType": "RESTAURANT"
                                     }
@@ -133,7 +133,7 @@
                                         "operationType": "RESTAURANT"
                                     },
                                     {
-                                        "meta": "Flat ₹100 off on orders above ₹999",
+                                        "meta": "Flat ₹150 off on orders above ₹999",
                                         "discountType": "Flat",
                                         "operationType": "RESTAURANT"
                                     }
@@ -145,7 +145,7 @@
                                         "operationType": "RESTAURANT"
                                     },
                                     {
-                                        "meta": "Flat ₹100 off on orders above ₹999 | Use code FLAT100",
+                                        "meta": "Flat ₹150 off on orders above ₹999 | Use code FLAT150",
                                         "discountType": "Flat",
                                         "operationType": "RESTAURANT"
                                     }
@@ -171,13 +171,13 @@
                                     "minValue": 699,
                                     "maxValue": 999,
                                     "priority": 2,
-                                    "couponCode": "FLAT100",
+                                    "couponCode": "FLAT150",
                                     "discountInfo": {
                                         "discountType": "Flat",
-                                        "value": 100
+                                        "value": 150
                                     },
-                                    "lockedMessage": "Add items worth ₹<amount> to save ₹100 | Code FLAT100",
-                                    "unlockedMessage": "FLAT100 Coupon Unlocked! Use it to save ₹100",
+                                    "lockedMessage": "Add items worth ₹<amount> to save ₹150 | Code FLAT150",
+                                    "unlockedMessage": "FLAT150 Coupon Unlocked! Use it to save ₹150",
                                     "logoCtx": {}
                                 }
                             ],
@@ -218,7 +218,7 @@
                         "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
                         "layout": {
                             "rows": 1,
-                            "columns": 4,
+                            "columns": 5,
                             "horizontalScrollEnabled": true,
                             "itemSpacing": 12,
                             "lineSpacing": 10,
@@ -269,14 +269,14 @@
                                     },
                                     {
                                         "info": {
-                                            "header": "FLAT ₹100 OFF",
+                                            "header": "FLAT ₹150 OFF",
                                             "offerTag": "FLAT DEAL",
                                             "offerTagColor": "#E46D47",
                                             "offerIds": [
-                                                "68b18148-9521-4d74-9917-16d6bdc57760"
+                                                "db77a2c2-62b9-440e-88e2-3cf229b7ff9c"
                                             ],
                                             "expiryTime": "1970-01-01T00:00:00Z",
-                                            "couponCode": "USE FLAT100",
+                                            "couponCode": "USE FLAT150",
                                             "description": "ABOVE ₹999",
                                             "offerType": "offers",
                                             "restId": "24426",
@@ -301,6 +301,26 @@
                                             "offerType": "offers",
                                             "restId": "24426",
                                             "offerLogo": "rng/md/ads/production/cd60f23dc2ac83be906d0f6ba55d3d12",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "15% OFF UPTO ₹300",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "rng/md/ads/production/15fb1cfe885005447dc8375e7970600f",
+                                            "offerIds": [
+                                                "1a4ecf1d-60f2-4034-b918-89db25e95d98"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE CITIFOODIE",
+                                            "description": "ABOVE ₹1200",
+                                            "offerType": "offers",
+                                            "restId": "24426",
+                                            "offerLogo": "rng/md/ads/production/15fb1cfe885005447dc8375e7970600f",
                                             "descriptionTextColor": "#7302060C"
                                         },
                                         "cta": {
@@ -522,7 +542,7 @@
                                                 {
                                                     "type": "TopCarousel",
                                                     "subtype": "image",
-                                                    "bannerId": "1576335",
+                                                    "bannerId": "1555896",
                                                     "creativeId": "TopPicks/MDNVC",
                                                     "title": "Party for 2 (Non-Veg) @Rs. 85 off",
                                                     "description": " ",
@@ -552,7 +572,7 @@
                                                 {
                                                     "type": "TopCarousel",
                                                     "subtype": "image",
-                                                    "bannerId": "1555896",
+                                                    "bannerId": "1576335",
                                                     "creativeId": "TopPicks/MDNVC",
                                                     "title": "Party for 2 (Non-Veg) @Rs. 85 off",
                                                     "description": " ",
@@ -37138,8 +37158,8 @@
         "firstOffsetRequest": true,
         "isQCLink": false
     },
-    "tid": "81ef6a22-c217-4089-8152-b98b48d66334",
-    "sid": "belefbb4-f5ab-487e-9828-bb307bf2ace4",
-    "deviceId": "5d79c474-d7b1-788e-cc23-d5dbfecaa9b0",
-    "csrfToken": "oUy1ptQMyuNB-OOjMxKFWszMCVzXYVEe-OF3Xep8"
+    "tid": "4dfabe2c-8ccd-4960-a814-76ff588c3b14",
+    "sid": "bgk89ebf-700c-4c19-ba75-3f7e72101cb7",
+    "deviceId": "dab9f9f3-5915-9e54-48e9-13d844fb5107",
+    "csrfToken": "lR1CewTof3Xj-XJbE4JNnLx00eHtMDMwiwn0AutI"
 }
