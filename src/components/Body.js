@@ -37,11 +37,10 @@ const Body = () => {
   // };
 
   const fetchData = async () => {
-    console.log("mock-data: ", RESTAURANT_LIST_MOCK_DATA);
-    console.log("*****************");
-    console.log("restuarant's list: ", RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
-    
-    
+    // console.log("mock-data: ", RESTAURANT_LIST_MOCK_DATA);
+    // console.log("*****************");
+    // console.log("restuarant's list: ", RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
+        
     setListOfRestaurants(RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
     setFilteredData(RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
   }
