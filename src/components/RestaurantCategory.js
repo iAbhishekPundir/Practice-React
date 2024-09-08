@@ -11,7 +11,7 @@ const RestaurantCategory = ({ resCategoryData, showItems, setShowIndex }) => {
     <div>
       {resCategoryData?.itemCards?.length !== undefined && (
         <div className="">
-          <div onClick={handleClick} className="bg-slate-200 flex justify-between m-2 px-4 py-2 rounded-sm shadow-lg hover:cursor-pointer">
+          <div onClick={handleClick} className="bg-slate-200 flex justify-between m-2 px-4 py-2 rounded-sm shadow-md hover:cursor-pointer">
             <span className="text-large font-bold">
               {resCategoryData?.title} ({resCategoryData?.itemCards?.length})
             </span>

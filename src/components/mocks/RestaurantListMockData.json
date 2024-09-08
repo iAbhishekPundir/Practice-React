@@ -454,17 +454,18 @@
                                     {
                                         "info": {
                                             "id": "798718",
-                                            "name": "Cafe D Town And Gauris Biryani",
+                                            "name": "Cafe D Town",
                                             "cloudinaryImageId": "https://tse4.mm.bing.net/th?id=OIP.mK9GKEY6aSIl2UPMeAh9JwHaEK&pid=Api&P=0&h=220",
                                             "locality": "Tulaja Bhawani Nagar",
                                             "areaName": "Prabhat Road",
                                             "costForTwo": "₹250 for two",
                                             "cuisines": [
-                                                "Biryani",
-                                                "Pizzas",
+                                                "Veg & Non-Veg Biryani",
+                                                "Fried rice",
                                                 "Burgers",
                                                 "Snacks"
                                             ],
+                                            "avgRating": 4.2,
                                             "parentId": "477494",
                                             "avgRatingString": "NEW",
                                             "promoted": true,
@@ -548,7 +549,7 @@
                                             "cuisines": [
                                                 "Pizzas",
                                                 "Italian",
-                                                "Pastas",
+                                                "White Sauce Pastas",
                                                 "Desserts"
                                             ],
                                             "avgRating": 4.3,
@@ -630,8 +631,10 @@
                                             "costForTwo": "₹200 for two",
                                             "cuisines": [
                                                 "Desserts",
+                                                "Donuts",
                                                 "Sweets",
-                                                "Bakery"
+                                                "Bakery",
+                                                "Snacks"
                                             ],
                                             "avgRating": 4.4,
                                             "veg": true,
@@ -796,7 +799,7 @@
                                     {
                                         "info": {
                                             "id": "805763",
-                                            "name": "Leela's Veg Multi Cuisine Restaurant",
+                                            "name": "Leela's Veg Multi Cuisine",
                                             "cloudinaryImageId": "https://tse3.mm.bing.net/th?id=OIP.lnZWdWfNLqDeeK5m5PQpzAHaE5&pid=Api&P=0&h=220",
                                             "locality": "Shivaji Nagar",
                                             "areaName": "Shivaji Nagar",
@@ -890,8 +893,10 @@
                                             "areaName": "Shivajinagar",
                                             "costForTwo": "₹350 for two",
                                             "cuisines": [
-                                                "Burgers",
-                                                "American"
+                                                "Veg & Non-Veg Burgers",
+                                                "American",
+                                                "French Fries",
+                                                "Drinks"
                                             ],
                                             "avgRating": 4.1,
                                             "parentId": "166",
@@ -1062,6 +1067,7 @@
                                             "costForTwo": "₹300 for two",
                                             "cuisines": [
                                                 "South Indian",
+                                                "Masala Idli",
                                                 "Snacks",
                                                 "Street Food"
                                             ],
@@ -1164,6 +1170,7 @@
                                             "cuisines": [
                                                 "North Indian",
                                                 "Biryani",
+                                                "Dal Makhni",
                                                 "Tandoor",
                                                 "Kebabs"
                                             ],
@@ -1251,7 +1258,9 @@
                                             "cuisines": [
                                                 "Mughlai",
                                                 "North Indian",
-                                                "Biryani"
+                                                "Biryani",
+                                                "Afghani Paneer",
+                                                "Paneer Tikka"
                                             ],
                                             "avgRating": 4.2,
                                             "parentId": "271976",
@@ -1593,8 +1602,7 @@
                                             "costForTwo": "₹150 for two",
                                             "cuisines": [
                                                 "Fast Food",
-                                                "Chinese",
-                                                "South Indian"
+                                                "Chinese"
                                             ],
                                             "avgRating": 3.9,
                                             "parentId": "271980",
@@ -1679,8 +1687,7 @@
                                             "costForTwo": "₹500 for two",
                                             "cuisines": [
                                                 "South Indian",
-                                                "North Indian",
-                                                "Biryani"
+                                                "North Indian"
                                             ],
                                             "avgRating": 4.1,
                                             "parentId": "271981",

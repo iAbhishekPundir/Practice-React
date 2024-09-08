@@ -15,46 +15,46 @@ const Header = () => {
   // console.log(cartItems);
 
   return (
-    <div className="flex  justify-between bg-slate-100">
+    <div className="flex justify-between  p-2 px-10">
       <div className="logo-container">
         <Link className="link" to="/">
-          <img className="w-24" src={LOGO_URL} />
+          <img className="w-12 rounded" src={LOGO_URL} />
         </Link>
       </div>
       <div className="flex items-center">
         <ul className="flex ">
-          <li className="px-2 hover:font-semibold">
+          <li className="px-2 text-gray-600 font-semibold hover:text-black">
             Status: {onlineStatus ? "🟢" : "🔴"}
           </li>
-          <li className="px-2 hover:font-semibold">
+          <li className="px-2 text-gray-600 font-semibold hover:text-black">
             <Link className="link" to="/">
               Home
             </Link>
           </li>
-          <li className="px-2 hover:font-semibold">
+          <li className="px-2 text-gray-600 font-semibold hover:text-black">
             <Link className="link" to="/grocery">
               Grocery
             </Link>
           </li>
-          <li className="px-2 hover:font-semibold">
+          <li className="px-2 text-gray-600 font-semibold hover:text-black">
             <Link className="link" to="/about">
               About
             </Link>
           </li>
-          <li className="px-2 hover:font-semibold">
+          <li className="px-2 text-gray-600 font-semibold hover:text-black">
             <Link className="link" to="/contact">
               Contact us
             </Link>
           </li>
-          <li className="px-2 text-lg hover:font-bold font-semibold">
+          <li className="px-2 text-gray-600 font-semibold hover:text-black">
             <Link className="link" to="/cart">
-              Cart ({cartItems?.length})
+              Cart[{cartItems?.length}]
             </Link>
           </li>
 
           <li className="px-2">
             <button
-              className="rounded-sm bg-amber-300 px-2 hover:bg-amber-400"
+              className="rounded-sm text-white font-semibold bg-amber-500 px-2 hover:bg-amber-400"
               onClick={() =>
                 loginBtn === "Login"
                   ? setLoginBtn("Logout")
@@ -64,7 +64,7 @@ const Header = () => {
               {loginBtn}
             </button>
           </li>
-          <li className="font-bold mr-2">{loggedInUser}</li>
+          {/* <li className="font-bold mr-2">{loggedInUser}</li> */}
         </ul>
       </div>
     </div>
