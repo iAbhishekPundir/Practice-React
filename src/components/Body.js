@@ -6,7 +6,7 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { RESTAURANT_LIST_URL } from "../utils/constants";
-import RESTAURANT_LIST_MOCK_DATA from "./mocks/RestaurantListMockData.json"
+import RESTAURANT_LIST_MOCK_DATA from "./mocks/RestaurantListMockData.json";
 
 import { useSelector } from "react-redux";
 
@@ -37,15 +37,18 @@ const Body = () => {
   // };
 
   const fetchData = async () => {
-    // console.log("mock-data: ", RESTAURANT_LIST_MOCK_DATA);
-    // console.log("*****************");
-    // console.log("restuarant's list: ", RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
-        
-    setListOfRestaurants(RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
-    setFilteredData(RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
-  }
 
-
+    setTimeout(() => {
+      setListOfRestaurants(
+        RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements
+          .infoWithStyle.restaurants
+      );
+      setFilteredData(
+        RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements
+          .infoWithStyle.restaurants
+      );
+    }, 2000);
+  };
 
   useEffect(() => {
     fetchData();
@@ -62,8 +65,8 @@ const Body = () => {
       <Shimmer />
     </div>
   ) : (
-    <div >
-      <div className="flex items-center my-4 mx-4">
+    <div>
+      <div className="flex items-center my-4 mx-10">
         <div className="">
           <input
             data-testid="searchInput"
@@ -76,7 +79,7 @@ const Body = () => {
             }}
           />
           <button
-            className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400 mr-4"
+            className="rounded-sm text-white  bg-slate-500 px-2 hover:opacity-80 mr-4"
             onClick={() =>
               setFilteredData(
                 listOfRestaurants?.filter((res) =>
@@ -92,7 +95,7 @@ const Body = () => {
         </div>
         <div className="flex items-center">
           <button
-            className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400 mr-4"
+            className="rounded-sm text-white  bg-slate-500 px-2 hover:opacity-80 mr-4"
             onClick={() => {
               setFilteredData(
                 listOfRestaurants?.filter((res) => res?.info?.avgRating >= 4.2)
@@ -102,15 +105,17 @@ const Body = () => {
             Top Rated Restaurants
           </button>
           <button
-            className="rounded-sm bg-slate-300 px-2 hover:bg-slate-400 mr-4"
+            className="rounded-sm text-white  bg-slate-500 px-2 hover:opacity-80 mr-4"
             onClick={() => setFilteredData(listOfRestaurants)}
           >
             Reset
           </button>
-          <p className="font-semibold bg-green-300 px-2">Total Restaurant : {filteredData?.length} </p>
+          <p className="rounded-sm font-semibold text-white bg-emerald-600 hover:bg-opacity-90 px-2">
+            Total Restaurant : {filteredData?.length}{" "}
+          </p>
         </div>
       </div>
-      <div className="flex flex-wrap">
+      <div className="grid grid-cols-5 m-[2rem]">
         {filteredData?.length === 0 ? (
           <h1>No restaurant found🫤</h1>
         ) : (
@@ -121,7 +126,10 @@ const Body = () => {
               key={restaurant.info.id}
             >
               {restaurant.info.promoted ? (
-                <PromotedRestaurant key={restaurant.info.id} resData={restaurant} />
+                <PromotedRestaurant
+                  key={restaurant.info.id}
+                  resData={restaurant}
+                />
               ) : (
                 <RestaurantCard key={restaurant.info.id} resData={restaurant} />
               )}

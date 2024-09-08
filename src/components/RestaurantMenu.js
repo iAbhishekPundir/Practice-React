@@ -8,7 +8,7 @@ const RestaurantMenu = () => {
   const { resId } = useParams();
 
   const resMenu = useRestaurantMenu(resId);
-
+  // console.log("line 11", resMenu)
   const [showIndex, setShowIndex] = useState(1);
 
   if (resMenu === null || resMenu === undefined) {
@@ -39,9 +39,9 @@ const RestaurantMenu = () => {
   const { message } = feeDetails;
 
   return (
-    <div className="w-screen bg-slate-50">
+    <div className="w-screen ">
       <div
-        className="p-4 w-6/12 bg-slate-300 mx-auto my-4 shadow-lg rounded-sm flex justify-between"
+        className="p-4 w-6/12 bg-slate-200 mx-auto my-4 shadow-lg rounded-sm flex justify-between"
         key={id}
       >
         <div>
@@ -58,7 +58,7 @@ const RestaurantMenu = () => {
         </div>
       </div>
       <div className="p-4 w-6/12  mx-auto my-4 ">
-        {categories.map((category, index) => (
+        {categories?.map((category, index) => (
           <RestaurantCategory
             key={index}
             resCategoryData={category?.card?.card}

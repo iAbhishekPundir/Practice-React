@@ -23,11 +23,11 @@ const RestaurantCard = (props) => {
   return (
     <div
       data-testid="resCard"
-      className="w-60  m-2 rounded-md bg-slate-200 hover:bg-slate-300"
+      className="w-60 min-h-[20rem] m-2 rounded-md bg-slate-200 hover:bg-slate-300 transition-colors"
       key={id}
     >
-      <div className="w-90 p-2">
-        <img className="rounded-md" src={cloudinaryImageId} />
+      <div className="p-2 w-60">
+        <img className="rounded-md w-full h-36" src={cloudinaryImageId} />
       </div>
       <div className="p-2 m-1" key={id}>
         <h1 className="font-bold ">{name}</h1>
