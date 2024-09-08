@@ -4,8 +4,10 @@ import RestaurantCard, {
 } from "../components/RestaurantCard";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
-import { RESTAURANT_LIST_URL } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { RESTAURANT_LIST_URL } from "../utils/constants";
+import RESTAURANT_LIST_MOCK_DATA from "./mocks/RestaurantListMockData.json"
+
 import { useSelector } from "react-redux";
 
 export const PromotedRestaurant = withPromotedLabel(RestaurantCard);
@@ -16,22 +18,35 @@ const Body = () => {
   // console.log("Restaurant data", listOfRestaurants);
   // const cartItems = useSelector()
 
-  const fetchData = async () => {
-    const fetchedData = await fetch(RESTAURANT_LIST_URL);
+  //fetching data from swiggy api
+  // const fetchData = async () => {
+  //   const fetchedData = await fetch(RESTAURANT_LIST_URL);
 
-    const jsonData = await fetchedData.json();
-    // console.log("Reastaurant List : ", jsonData);
-    if (jsonData !== undefined) {
-      setListOfRestaurants(
-        jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
-          ?.restaurants
-      );
-      setFilteredData(
-        jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
-          ?.restaurants
-      );
-    }
-  };
+  //   const jsonData = await fetchedData.json();
+  //   console.log("Reastaurant List : ", jsonData);
+  //   if (jsonData !== undefined) {
+  //     setListOfRestaurants(
+  //       jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+  //         ?.restaurants
+  //     );
+  //     setFilteredData(
+  //       jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+  //         ?.restaurants
+  //     );
+  //   }
+  // };
+
+  const fetchData = async () => {
+    console.log("mock-data: ", RESTAURANT_LIST_MOCK_DATA);
+    console.log("*****************");
+    console.log("restuarant's list: ", RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
+    
+    
+    setListOfRestaurants(RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
+    setFilteredData(RESTAURANT_LIST_MOCK_DATA.data.cards[2].card.card.gridElements.infoWithStyle.restaurants);
+  }
+
+
 
   useEffect(() => {
     fetchData();

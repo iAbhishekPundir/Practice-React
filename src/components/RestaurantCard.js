@@ -18,7 +18,6 @@ export const withPromotedLabel = (RestaurantCard) => {
 const RestaurantCard = (props) => {
   const { loggedInUser } = useContext(UserContext);
   const { resData } = props;
-  // console.log("resdata", resData);
   const { id, name, cloudinaryImageId, costForTwo, cuisines, avgRating, sla } =
     resData?.info;
   return (
@@ -28,7 +27,7 @@ const RestaurantCard = (props) => {
       key={id}
     >
       <div className="w-90 p-2">
-        <img className="rounded-md" src={CDN_URL + cloudinaryImageId} />
+        <img className="rounded-md" src={cloudinaryImageId} />
       </div>
       <div className="p-2 m-1" key={id}>
         <h1 className="font-bold ">{name}</h1>
@@ -36,7 +35,6 @@ const RestaurantCard = (props) => {
         <p> {costForTwo} </p>
         <p> {avgRating}⭐ </p>
         <p> {sla.deliveryTime} min </p>
-        <p> {loggedInUser} </p>
       </div>
     </div>
   );

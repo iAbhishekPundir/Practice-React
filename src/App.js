@@ -28,7 +28,7 @@ const AppLayout = () => {
   useEffect(() => {
     //Make an API call, ssend username and password
     const data = {
-      name: "Abhishek P",
+      name: "Abhishek",
     };
     setUserName(data?.name);
   }, []);
@@ -39,7 +39,7 @@ const AppLayout = () => {
       <UserContext.Provider value={{ loggedInUser: userName }}>
         <Header />
       </UserContext.Provider>
-      <UserContext.Provider value={{ loggedInUser: "Elon Musk" }}>
+      <UserContext.Provider value={{ loggedInUser: "Abhishek" }}>
         <Outlet />
       </UserContext.Provider>
     </div>
