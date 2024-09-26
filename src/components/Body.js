@@ -6,7 +6,7 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { RESTAURANT_LIST_URL } from "../utils/constants";
-import RESTAURANT_LIST_MOCK_DATA from "./mocks/RestaurantListMockData.json";
+import RESTAURANT_LIST_MOCK_DATA from "../mocks/RestaurantListMockData.json";
 
 import { useSelector } from "react-redux";
 
@@ -115,7 +115,7 @@ const Body = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-5 m-[2rem]">
+      <div className="grid md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-7 m-[2rem]">
         {filteredData?.length === 0 ? (
           <h1>No restaurant found🫤</h1>
         ) : (
