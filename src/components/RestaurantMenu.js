@@ -39,7 +39,7 @@ const RestaurantMenu = () => {
   const { message } = feeDetails;
 
   return (
-    <div className="w-screen ">
+    resMenu && <div className="w-screen ">
       <div
         className="p-4 w-6/12 bg-slate-200 mx-auto my-4 shadow-lg rounded-sm flex justify-between"
         key={id}
